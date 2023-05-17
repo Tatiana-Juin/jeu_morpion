@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Morpions</title>
+</head>
+<body>
+    <header>
+        <h1>Jeu du morpions</h1>
+    </header>
+    <main>
+       
+        <!-- div contenant tous la structure du morpions -->
+        <div>
+            <table>
+                <tr>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                    <td id="3"></td>
+                </tr>
+                <tr>
+                    <td id="4"></td>
+                    <td id="5"></td>
+                    <td id="6"></td>
+                </tr>
+                <tr>
+                    <td id="7"></td>
+                    <td id="8"></td>
+                    <td id="9"></td>
+                </tr>
+            </table>
+            
+        </div>
+        <!-- Pour afficher le gagant et le  nom des joueur -->
+        <p id="gagnant"></p>
+        <p id="nomJoueur"> Joueur 1 à toi</p>
+
+        <!-- Bouton reset -->
+        <div id="reset">
+            <input type="button" value="Recommencer" id="btn-reset" />
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
