@@ -7,7 +7,7 @@ let btnReset = document.getElementById('btn-reset');
 let symbole = 'X';
 let finJeu = false;
 
-// let nbTour = 0;
+ let nbTour = 0;
 
 for (let i = 1; i <= 9; i++) {
   document.getElementById(i.toString()).addEventListener('click', function () {
@@ -33,12 +33,12 @@ for (let i = 1; i <= 9; i++) {
     }
     //console.log(this);
     this.classList.add(symbole);
-    /* nbTour += 1;
-    if (nbTour === 9) {
+    nbTour += 1;
+    if (nbTour === 9 && !finJeu) {
       nomJoueur.innerHTML = '';
       nomJoueur.innerHTML = "Dommage ! Personne n'a gagner";
     }
-    console.log(nbTour); */
+   // console.log(nbTour);
     
     // Pour supprimer le nom du prochain joueur pour que la fonction positionGagnante() affiche que le message pour le gagnant .
     if(finJeu ===true){
@@ -80,6 +80,8 @@ function positionGagnante() {
       finJeu = true;
     }
   }
+  // au cas ou des personne continue de cliquer sur des touche avec reset
+  nbTour=0;
 }
 
 /* FONCTION POUR LE BOUTON RESET  */
@@ -92,6 +94,6 @@ btnReset.addEventListener('click', () => {
     nomJoueur.innerText = 'Joueur 1 à toi';
     finJeu = false;
     symbole = 'X';
-    // nbTour = 0;
+     nbTour = 0;
   }
 });
