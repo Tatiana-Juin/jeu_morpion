@@ -34,7 +34,7 @@ for (let i = 1; i <= 9; i++) {
     //console.log(this);
     this.classList.add(symbole);
     nbTour += 1;
-    if (nbTour === 9 && !finJeu) {
+    if (nbTour >= 9 && !finJeu) {
       nomJoueur.innerHTML = '';
       nomJoueur.innerHTML = "Dommage ! Personne n'a gagner";
       console.log(nbTour);
