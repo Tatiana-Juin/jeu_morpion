@@ -3,6 +3,7 @@
     margin: 0;
     padding:0;
 }
+
 /* HEADER */
 header h1{
     margin-top:10px;
@@ -12,9 +13,7 @@ header h1{
 }
 
 
-
-
-/* POUR CENTRER LE MORPIONS */
+/* POUR CENTRER LE MORPION */
 main div{
     display:flex;
     justify-content: center;
@@ -23,8 +22,8 @@ main div{
 
 
 
-/* Taille des cases du morpions */
-main table tr td {
+/* TAILLES DES CASES DU MORPION */
+main div table tr td {
     width:80px;
     height: 80px;
     background-color: white;
@@ -33,15 +32,14 @@ main table tr td {
     cursor: pointer;
 }
 
-/* POUR DESIGNER LES JOUEURS */
-
-
+/* POUR LE STYLE DU NOM DES JOUEURS ET DU GAGNANT */
 #nomJoueur,#gagnant{
     text-align: center;
     font-size:20px;
    
 }
 
+/* STYLE POUR LES SYMBOLES  */
 .X{
     color:black;
     font-size: 30px;
@@ -51,6 +49,7 @@ main table tr td {
     color:grey;
     font-size: 30px;
 }
+
 /* POUR FAIRE LE RESET */
 #reset {
     margin-top: 10px;
@@ -59,12 +58,12 @@ main table tr td {
   }
   
   /* style du bouton reset  */
-  #btn-reset {
+#btn-reset {
     padding: 10px;
     border-radius: 5px;
     background-color: pink;
     border-color: pink;
-  
+
     font-weight: 500;
     cursor: pointer;
-  }
+}
