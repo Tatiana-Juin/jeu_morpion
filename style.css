@@ -7,9 +7,10 @@
 /* HEADER */
 header h1{
     margin-top:10px;
-    /* font-size: 25px; */
+    font-size: 50px;;
     text-align: center;
     color: pink;
+    font-weight: bolder;
 }
 
 
@@ -19,8 +20,6 @@ main div{
     justify-content: center;
     margin-top: 15px;
 }
-
-
 
 /* TAILLES DES CASES DU MORPION */
 main div table tr td {
@@ -35,7 +34,9 @@ main div table tr td {
 /* POUR LE STYLE DU NOM DES JOUEURS ET DU GAGNANT */
 #nomJoueur,#gagnant{
     text-align: center;
-    font-size:20px;
+    font-size:23px;
+    margin-top:10px;
+    margin-bottom: 5px;
    
 }
 
@@ -50,7 +51,7 @@ main div table tr td {
     font-size: 30px;
 }
 
-/* POUR FAIRE LE RESET */
+/* POUR FAIRE LE STYLE DU  RESET */
 #reset {
     margin-top: 10px;
     display: flex;
@@ -65,5 +66,6 @@ main div table tr td {
     border-color: pink;
 
     font-weight: 500;
+    font-size:16px;
     cursor: pointer;
 }

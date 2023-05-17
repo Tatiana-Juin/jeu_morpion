@@ -9,8 +9,6 @@ let finJeu = false;
 
 // let nbTour = 0;
 
-
-
 for (let i = 1; i <= 9; i++) {
   document.getElementById(i.toString()).addEventListener('click', function () {
     //On affiches les symbole
@@ -42,6 +40,7 @@ for (let i = 1; i <= 9; i++) {
     }
     console.log(nbTour); */
     
+    // Pour supprimer le nom du prochain joueur pour que la fonction positionGagnante() affiche que le message pour le gagnant .
     if(finJeu ===true){
       nomJoueur.innerHTML="";
      
@@ -60,7 +59,7 @@ let posGagnant = [
   [3, 5, 7],
 ];
 
-//function pour dire que l'on a gagner
+//FONCTION POUR DEFINIR SI TU AS GAGNER PAR RAPPORT AU TABLEAU
 function positionGagnante() {
   for (let i = 0; i < posGagnant.length; i++) {
     if (
@@ -68,24 +67,22 @@ function positionGagnante() {
       document.getElementById(posGagnant[i][1]).innerHTML === symbole &&
       document.getElementById(posGagnant[i][2]).innerHTML === symbole
     ) {
-      //alert ("Tu as gagner");
-
-      //console.log(symbole);
-      //gagnant.innerHTML="Tu as gagner";
+      
+      /* Affichage du gagnant selon les symboles  */
       if (symbole === 'X') {
-        
         gagnant.innerHTML = 'Tu as gagner le joueur 1';
         
       } else {
         gagnant.innerHTML = 'Le gagnant est le joueur 2';
         
       }
-
+      //pour arreter l'affichage des symboles
       finJeu = true;
     }
   }
 }
 
+/* FONCTION POUR LE BOUTON RESET  */
 btnReset.addEventListener('click', () => {
   for (let i = 1; i <= 9; i++) {
     document.getElementById(i.toString()).innerHTML = '';
