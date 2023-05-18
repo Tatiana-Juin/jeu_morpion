@@ -9,7 +9,7 @@ header h1{
     margin-top:10px;
     font-size: 50px;;
     text-align: center;
-    color: pink;
+    color: purple;
     font-weight: bolder;
 }
 
@@ -62,10 +62,11 @@ main div table tr td {
 #btn-reset {
     padding: 10px;
     border-radius: 5px;
-    background-color: pink;
-    border-color: pink;
+    background-color: #ffeeee;
+    border-color: #ffeeee;
 
-    font-weight: 500;
+    font-weight: bolder;
     font-size:16px;
     cursor: pointer;
+    color:purple;
 }
