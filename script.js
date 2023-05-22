@@ -48,7 +48,6 @@ for (let i = 1; i <= 9; i++) {
       console.log(nbTour);
     }
     
-  
     //suppression du nom du joueur suivant s'il y a un gagnant 
     if(finJeu ===true){
       nomJoueur.innerHTML="";
@@ -94,6 +93,7 @@ function positionGagnante() {
 
 /* FONCTION POUR LE BOUTON RESET  */
 btnReset.addEventListener('click', () => {
+  //Boucle pour supprimer les X et O , supprimer les class et rénitialiser les valeur a 0 ou false  . 
   for (let i = 1; i <= 9; i++) {
     document.getElementById(i.toString()).innerHTML = '';
     document.getElementById(i.toString()).classList.remove('X');
