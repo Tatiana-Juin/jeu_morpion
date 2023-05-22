@@ -34,6 +34,7 @@ for (let i = 1; i <= 9; i++) {
       nomJoueur.innerHTML = 'Joueur 1 à toi';
       //console.log(nomJoueur);
     }
+    
     //console.log(this);
     this.classList.add(symbole);
     nbTour += 1;

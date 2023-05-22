@@ -44,11 +44,13 @@ main div table tr td {
 .X{
     color:black;
     font-size: 30px;
+    text-align: center;
 }
 
 .O{
     color:grey;
     font-size: 30px;
+    text-align: center;
 }
 
 /* POUR FAIRE LE STYLE DU  RESET */
