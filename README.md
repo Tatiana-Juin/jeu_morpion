@@ -13,10 +13,10 @@ Pour gagner au morpion, il faut que tu alignes 3 symboles identiques (X ou O) de
 * README.md
 
 ## Dans le dossier assets 
-### dossier css 
+### Dossier css 
 * style.css 
 
-### dossier js 
+### Dossier js 
 * script.js 
 
 
