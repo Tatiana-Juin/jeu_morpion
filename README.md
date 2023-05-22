@@ -7,4 +7,16 @@ Pour gagner au morpion, il faut que tu alignes 3 symboles identiques (X ou O) de
 * HTML et CSS 
 * JavaScript
 
+# Organisation des dossiers et fichiers 
+## A la racine 
+* index.html 
+* README.md
+
+## Dans le dossier assets 
+### dossier css 
+* style.css 
+
+### dossier js 
+* script.js 
+
 
