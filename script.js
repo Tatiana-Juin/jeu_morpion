@@ -36,16 +36,20 @@ for (let i = 1; i <= 9; i++) {
     }
     
     //console.log(this);
+    
     this.classList.add(symbole);
+    //incrementation du nbTour 
     nbTour += 1;
+
+    //Pour afficher un message si personne n'a gagner 
     if (nbTour >= 9 && !finJeu) {
       nomJoueur.innerHTML = '';
       nomJoueur.innerHTML = "Dommage ! Personne n'a gagner";
       console.log(nbTour);
     }
     
-    
-    // Pour supprimer le nom du prochain joueur pour que la fonction positionGagnante() affiche que le message pour le gagnant .
+  
+    //suppression du nom du joueur suivant s'il y a un gagnant 
     if(finJeu ===true){
       nomJoueur.innerHTML="";
      
