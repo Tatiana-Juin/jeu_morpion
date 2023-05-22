@@ -7,14 +7,17 @@ let btnReset = document.getElementById('btn-reset');
 let symbole = 'X';
 let finJeu = false;
 
+//nb de tour 
  let nbTour = 0;
 
+ //boucle pour créer un événement sur chaque case ayant un id qui se suit.
 for (let i = 1; i <= 9; i++) {
   document.getElementById(i.toString()).addEventListener('click', function () {
-    //On affiches les symbole
+    //On affiches les symboles
     if (this.innerHTML === '' && !finJeu) {
       this.innerHTML = symbole;
     }
+    //appelle de la fonction positionGagnante - pour savoir si le joueur à gagner
     positionGagnante();
   
 
