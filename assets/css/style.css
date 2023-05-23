@@ -72,3 +72,9 @@ main div table tr td {
     cursor: pointer;
     color:purple;
 }
+
+@media screen and (max-width:500px){
+    header h1{
+        font-size:35px;
+    }
+}
