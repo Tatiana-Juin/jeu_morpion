@@ -73,8 +73,8 @@ main div table tr td {
     color:purple;
 }
 
-@media screen and (max-width:650px){
+/* @media screen and (max-width:650px){
     header h1{
         font-size:28px;
     }
-}
+} */
