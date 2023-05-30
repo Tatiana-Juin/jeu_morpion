@@ -9,14 +9,16 @@ Pour gagner au morpion, il faut que tu alignes 3 symboles identiques (X ou O) de
 
 # Organisation des dossiers et fichiers 
 ## A la racine 
-* index.html 
-* README.md
+* index.html => pour la structure du morpion 
+* README.md 
 
 ## Dans le dossier assets 
 ### Dossier css 
-* style.css 
+* style.css => pour le design du morpion
 
 ### Dossier js 
-* script.js 
+* script.js => pour faire fonctionner le morpion - l'interraction
+
+
 
 
