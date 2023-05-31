@@ -17,7 +17,7 @@ Pour gagner au morpion, il faut que tu alignes 3 symboles identiques (X ou O) de
 * style.css => fichier pour l'apparence du morpion
 
 ### Dossier js 
-* script.js => pour faire fonctionner le morpion - l'interraction
+* script.js => fichier pour faire fonctionner le morpion 
 
 # Pour modifier le morpion
 ## Pour modifier  l'apparence du morpion 
